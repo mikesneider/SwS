@@ -1,0 +1,12 @@
+# Cifrado y Validación de Integridad
+cryptography>=42.0.0
+
+# Azure SDK - Producción
+azure-identity>=1.15.0
+azure-keyvault-secrets>=4.8.0
+azure-storage-blob>=12.19.0
+
+# Notas:
+# - hashlib y os son parte de la biblioteca estándar de Python (no requieren instalación)
+# - Para desarrollo local, solo cryptography es necesaria
+# - Para producción en Azure, se requieren todas las dependencias
