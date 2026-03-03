@@ -6,6 +6,11 @@ azure-identity>=1.15.0
 azure-keyvault-secrets>=4.8.0
 azure-storage-blob>=12.19.0
 
+# Procesamiento y Validación Estructural de Imágenes (SSIM)
+opencv-python-headless>=4.9.0
+scikit-image>=0.22.0
+numpy>=1.26.0
+
 # Notas:
 # - hashlib y os son parte de la biblioteca estándar de Python (no requieren instalación)
 # - Para desarrollo local, solo cryptography es necesaria
